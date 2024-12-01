@@ -646,9 +646,15 @@ SearchAppQt_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
+	F:/SearchAppQt/ArrGenerator.cpp \
+	F:/SearchAppQt/ArrGenerator.h \
+	F:/SearchAppQt/AscendingArrGenerator.cpp \
+	F:/SearchAppQt/AscendingArrGenerator.h \
 	F:/SearchAppQt/BinarySearcher.cpp \
 	F:/SearchAppQt/BinarySearcher.h \
 	F:/SearchAppQt/CMakeLists.txt \
+	F:/SearchAppQt/DescendingArrGenerator.cpp \
+	F:/SearchAppQt/DescendingArrGenerator.h \
 	F:/SearchAppQt/FileIO.cpp \
 	F:/SearchAppQt/FileIO.h \
 	F:/SearchAppQt/JumpSearcher.cpp \
@@ -657,6 +663,8 @@ SearchAppQt_autogen/timestamp: \
 	F:/SearchAppQt/LinearSearcher.h \
 	F:/SearchAppQt/NeedSortedSearcher.cpp \
 	F:/SearchAppQt/NeedSortedSearcher.h \
+	F:/SearchAppQt/RandomizeArrGenerator.cpp \
+	F:/SearchAppQt/RandomizeArrGenerator.h \
 	F:/SearchAppQt/Reader.cpp \
 	F:/SearchAppQt/Reader.h \
 	F:/SearchAppQt/SearchContext.cpp \

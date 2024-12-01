@@ -7,6 +7,10 @@
 #include "JumpSearcher.h"
 #include "QFileDialog"
 #include "FileIO.h"
+#include "Reader.h"
+#include "AscendingArrGenerator.h"
+#include "DescendingArrGenerator.h"
+#include "RandomizeArrGenerator.h"
 
 using namespace std;
 
@@ -27,13 +31,29 @@ void MainWindow::on_inputByFileBtn_clicked() {
 }
 
 void MainWindow::on_generateInputBtn_clicked() {
+    string sizeStr = ui->inputSizeEdit->text().toStdString();
+    Reader reader;
+    reader.read(sizeStr);
+    int size = reader.getInputArr()[0];
 
+    string generator = ui->generateTypeBox->currentText().toStdString();
+    if (generator == "Ascending") {
+        arrGenerator = new AscendingArrGenerator();
+    } else if (generator == "Descending") {
+        arrGenerator = new DescendingArrGenerator();
+    } else {
+        arrGenerator = new RandomizeArrGenerator();
+    }
+    arrGenerator->generate(size);
+    string inputArrStr = arrGenerator->getGeneratedArrStr();
+    ui->inputArrayEdit->setPlainText(QString::fromStdString(inputArrStr));
 }
 
 
 void MainWindow::on_inputArrayBtn_clicked() {
     QString qData = ui->inputArrayEdit->toPlainText();
     string data = qData.toStdString();
+    Reader reader;
     reader.read(data);
     inputArr = reader.getInputArr();
     cout << inputArr.size() << endl;
@@ -41,6 +61,7 @@ void MainWindow::on_inputArrayBtn_clicked() {
 
 void MainWindow::on_search_clicked() {
     string searchValuesStr = ui->searchValueEdit->text().toStdString();
+    Reader reader;
     reader.read(searchValuesStr);
     searchValues = reader.getInputArr();
     searchers.clear();

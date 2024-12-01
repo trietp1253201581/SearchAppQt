@@ -266,9 +266,27 @@
 	"HEADERS" : 
 	[
 		[
+			"F:/SearchAppQt/ArrGenerator.h",
+			"MU",
+			"EWIEGA46WW/moc_ArrGenerator.cpp",
+			null
+		],
+		[
+			"F:/SearchAppQt/AscendingArrGenerator.h",
+			"MU",
+			"EWIEGA46WW/moc_AscendingArrGenerator.cpp",
+			null
+		],
+		[
 			"F:/SearchAppQt/BinarySearcher.h",
 			"MU",
 			"EWIEGA46WW/moc_BinarySearcher.cpp",
+			null
+		],
+		[
+			"F:/SearchAppQt/DescendingArrGenerator.h",
+			"MU",
+			"EWIEGA46WW/moc_DescendingArrGenerator.cpp",
 			null
 		],
 		[ "F:/SearchAppQt/FileIO.h", "MU", "EWIEGA46WW/moc_FileIO.cpp", null ],
@@ -288,6 +306,12 @@
 			"F:/SearchAppQt/NeedSortedSearcher.h",
 			"MU",
 			"EWIEGA46WW/moc_NeedSortedSearcher.cpp",
+			null
+		],
+		[
+			"F:/SearchAppQt/RandomizeArrGenerator.h",
+			"MU",
+			"EWIEGA46WW/moc_RandomizeArrGenerator.cpp",
 			null
 		],
 		[ "F:/SearchAppQt/Reader.h", "MU", "EWIEGA46WW/moc_Reader.cpp", null ],
@@ -393,11 +417,15 @@
 	"SETTINGS_FILE" : "F:/SearchAppQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/CMakeFiles/SearchAppQt_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "F:/SearchAppQt/ArrGenerator.cpp", "MU", null ],
+		[ "F:/SearchAppQt/AscendingArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/BinarySearcher.cpp", "MU", null ],
+		[ "F:/SearchAppQt/DescendingArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/FileIO.cpp", "MU", null ],
 		[ "F:/SearchAppQt/JumpSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/LinearSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/NeedSortedSearcher.cpp", "MU", null ],
+		[ "F:/SearchAppQt/RandomizeArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/Reader.cpp", "MU", null ],
 		[ "F:/SearchAppQt/SearchContext.cpp", "MU", null ],
 		[ "F:/SearchAppQt/Searcher.cpp", "MU", null ],

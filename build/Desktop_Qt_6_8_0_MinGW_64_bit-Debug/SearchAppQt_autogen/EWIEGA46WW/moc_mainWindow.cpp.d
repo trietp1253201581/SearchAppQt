@@ -477,7 +477,7 @@ F:/SearchAppQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/SearchAppQt_autogen/EWI
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
-  F:/SearchAppQt/Reader.h \
+  F:/SearchAppQt/ArrGenerator.h \
   F:/SearchAppQt/SearchContext.h \
   F:/SearchAppQt/Searcher.h \
   F:/SearchAppQt/TimeCounter.h

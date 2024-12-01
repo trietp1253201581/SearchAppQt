@@ -478,7 +478,7 @@ F:/SearchAppQt/mainWindow.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h
- mdp:F:/SearchAppQt/Reader.h
+ mdp:F:/SearchAppQt/ArrGenerator.h
  mdp:F:/SearchAppQt/SearchContext.h
  mdp:F:/SearchAppQt/Searcher.h
  mdp:F:/SearchAppQt/TimeCounter.h
@@ -487,11 +487,11 @@ F:/SearchAppQt/mainWindow.h
 F:/SearchAppQt/main.cpp
 F:/SearchAppQt/mainWindow.cpp
  uic:./ui_mainWindow.h
-F:/SearchAppQt/NeedSortedSearcher.h
 F:/SearchAppQt/LinearSearcher.h
+F:/SearchAppQt/NeedSortedSearcher.h
+F:/SearchAppQt/Searcher.h
 F:/SearchAppQt/JumpSearcher.h
 F:/SearchAppQt/LinearSearcher.cpp
-F:/SearchAppQt/Searcher.h
 F:/SearchAppQt/TimeCounter.h
 F:/SearchAppQt/NeedSortedSearcher.cpp
 F:/SearchAppQt/Searcher.cpp
@@ -502,8 +502,16 @@ F:/SearchAppQt/TernarySearcher.h
 F:/SearchAppQt/TernarySearcher.cpp
 F:/SearchAppQt/JumpSearcher.cpp
 F:/SearchAppQt/SearchContext.h
+F:/SearchAppQt/ArrGenerator.h
 F:/SearchAppQt/SearchContext.cpp
 F:/SearchAppQt/Reader.h
 F:/SearchAppQt/Reader.cpp
 F:/SearchAppQt/FileIO.h
 F:/SearchAppQt/FileIO.cpp
+F:/SearchAppQt/AscendingArrGenerator.h
+F:/SearchAppQt/DescendingArrGenerator.h
+F:/SearchAppQt/RandomizeArrGenerator.h
+F:/SearchAppQt/ArrGenerator.cpp
+F:/SearchAppQt/AscendingArrGenerator.cpp
+F:/SearchAppQt/DescendingArrGenerator.cpp
+F:/SearchAppQt/RandomizeArrGenerator.cpp

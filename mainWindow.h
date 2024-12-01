@@ -2,9 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "Reader.h"
 #include "Searcher.h"
 #include "SearchContext.h"
+#include "ArrGenerator.h"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -32,11 +32,11 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    Reader reader;
     vector<int> inputArr;
     vector<int> searchValues;
     vector<Searcher*> searchers;
     SearchContext searchContext;
     string result;
+    ArrGenerator* arrGenerator;
 };
 #endif // MAINWINDOW_H
