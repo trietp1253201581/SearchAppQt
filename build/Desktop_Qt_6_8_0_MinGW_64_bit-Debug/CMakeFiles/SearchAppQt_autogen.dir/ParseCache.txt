@@ -487,11 +487,11 @@ F:/SearchAppQt/mainWindow.h
 F:/SearchAppQt/main.cpp
 F:/SearchAppQt/mainWindow.cpp
  uic:./ui_mainWindow.h
-F:/SearchAppQt/LinearSearcher.h
 F:/SearchAppQt/NeedSortedSearcher.h
-F:/SearchAppQt/Searcher.h
+F:/SearchAppQt/LinearSearcher.h
 F:/SearchAppQt/JumpSearcher.h
 F:/SearchAppQt/LinearSearcher.cpp
+F:/SearchAppQt/Searcher.h
 F:/SearchAppQt/TimeCounter.h
 F:/SearchAppQt/NeedSortedSearcher.cpp
 F:/SearchAppQt/Searcher.cpp
@@ -505,3 +505,5 @@ F:/SearchAppQt/SearchContext.h
 F:/SearchAppQt/SearchContext.cpp
 F:/SearchAppQt/Reader.h
 F:/SearchAppQt/Reader.cpp
+F:/SearchAppQt/FileIO.h
+F:/SearchAppQt/FileIO.cpp

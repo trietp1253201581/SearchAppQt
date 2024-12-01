@@ -41,6 +41,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         SearchContext.cpp
         Reader.h
         Reader.cpp
+        FileIO.h
+        FileIO.cpp
+        exa.txt
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SearchAppQt APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

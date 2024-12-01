@@ -5,6 +5,8 @@
 #include "BinarySearcher.h"
 #include "TernarySearcher.h"
 #include "JumpSearcher.h"
+#include "QFileDialog"
+#include "FileIO.h"
 
 using namespace std;
 
@@ -17,7 +19,11 @@ MainWindow::~MainWindow() {
 }
 
 void MainWindow::on_inputByFileBtn_clicked() {
-
+    QString qFileDir = QFileDialog::getOpenFileName(this, "Open file",
+                                                    "", "All Files (*.*)");
+    string fileDir = qFileDir.toStdString();
+    string data = FileIO::read(fileDir);
+    ui->inputArrayEdit->setPlainText(QString::fromStdString(data));
 }
 
 void MainWindow::on_generateInputBtn_clicked() {

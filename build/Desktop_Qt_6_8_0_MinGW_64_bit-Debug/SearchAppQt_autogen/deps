@@ -649,6 +649,8 @@ SearchAppQt_autogen/timestamp: \
 	F:/SearchAppQt/BinarySearcher.cpp \
 	F:/SearchAppQt/BinarySearcher.h \
 	F:/SearchAppQt/CMakeLists.txt \
+	F:/SearchAppQt/FileIO.cpp \
+	F:/SearchAppQt/FileIO.h \
 	F:/SearchAppQt/JumpSearcher.cpp \
 	F:/SearchAppQt/JumpSearcher.h \
 	F:/SearchAppQt/LinearSearcher.cpp \

@@ -8,6 +8,7 @@
 #include "Searcher.h"
 #include "Reader.h"
 #include <QApplication>
+#include "FileIO.h"
 using namespace std;
 int main(int argc, char *argv[])
 {
@@ -15,9 +16,8 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
     string s = " 1 312   5 8 99  ";
-    Reader reader;
-    cout << reader.read(s) << endl;
-    cout << reader.getInputArr()[4]<<endl;
-    cout << s << endl;
+    string fileDir = "/SearchAppQt/exa.txt";
+    string b = FileIO::read(fileDir);
+    cout << b << endl;
     return a.exec();
 }

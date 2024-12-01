@@ -271,6 +271,7 @@
 			"EWIEGA46WW/moc_BinarySearcher.cpp",
 			null
 		],
+		[ "F:/SearchAppQt/FileIO.h", "MU", "EWIEGA46WW/moc_FileIO.cpp", null ],
 		[
 			"F:/SearchAppQt/JumpSearcher.h",
 			"MU",
@@ -393,6 +394,7 @@
 	"SOURCES" : 
 	[
 		[ "F:/SearchAppQt/BinarySearcher.cpp", "MU", null ],
+		[ "F:/SearchAppQt/FileIO.cpp", "MU", null ],
 		[ "F:/SearchAppQt/JumpSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/LinearSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/NeedSortedSearcher.cpp", "MU", null ],
