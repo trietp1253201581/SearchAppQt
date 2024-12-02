@@ -289,7 +289,19 @@
 			"EWIEGA46WW/moc_DescendingArrGenerator.cpp",
 			null
 		],
+		[
+			"F:/SearchAppQt/ExponentialSearcher.h",
+			"MU",
+			"EWIEGA46WW/moc_ExponentialSearcher.cpp",
+			null
+		],
 		[ "F:/SearchAppQt/FileIO.h", "MU", "EWIEGA46WW/moc_FileIO.cpp", null ],
+		[
+			"F:/SearchAppQt/InterpolationSearcher.h",
+			"MU",
+			"EWIEGA46WW/moc_InterpolationSearcher.cpp",
+			null
+		],
 		[
 			"F:/SearchAppQt/JumpSearcher.h",
 			"MU",
@@ -421,7 +433,9 @@
 		[ "F:/SearchAppQt/AscendingArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/BinarySearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/DescendingArrGenerator.cpp", "MU", null ],
+		[ "F:/SearchAppQt/ExponentialSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/FileIO.cpp", "MU", null ],
+		[ "F:/SearchAppQt/InterpolationSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/JumpSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/LinearSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/NeedSortedSearcher.cpp", "MU", null ],

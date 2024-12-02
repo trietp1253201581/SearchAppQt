@@ -3,6 +3,7 @@
 
 #include <bits/stdc++.h>
 #include "NeedSortedSearcher.h"
+using namespace std;
 
 class JumpSearcher: public NeedSortedSearcher {
 public:

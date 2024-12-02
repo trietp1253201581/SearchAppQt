@@ -655,8 +655,12 @@ SearchAppQt_autogen/timestamp: \
 	F:/SearchAppQt/CMakeLists.txt \
 	F:/SearchAppQt/DescendingArrGenerator.cpp \
 	F:/SearchAppQt/DescendingArrGenerator.h \
+	F:/SearchAppQt/ExponentialSearcher.cpp \
+	F:/SearchAppQt/ExponentialSearcher.h \
 	F:/SearchAppQt/FileIO.cpp \
 	F:/SearchAppQt/FileIO.h \
+	F:/SearchAppQt/InterpolationSearcher.cpp \
+	F:/SearchAppQt/InterpolationSearcher.h \
 	F:/SearchAppQt/JumpSearcher.cpp \
 	F:/SearchAppQt/JumpSearcher.h \
 	F:/SearchAppQt/LinearSearcher.cpp \
