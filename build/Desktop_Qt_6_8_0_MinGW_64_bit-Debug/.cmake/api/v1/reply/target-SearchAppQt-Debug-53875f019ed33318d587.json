@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 95,
+				"line" : 97,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 78,
+				"line" : 80,
 				"parent" : 0
 			},
 			{
@@ -380,7 +380,8 @@
 				32,
 				33,
 				35,
-				37
+				37,
+				39
 			]
 		}
 	],
@@ -519,7 +520,8 @@
 				32,
 				33,
 				35,
-				37
+				37,
+				39
 			]
 		},
 		{
@@ -543,7 +545,8 @@
 				29,
 				34,
 				36,
-				38
+				38,
+				40
 			]
 		},
 		{
@@ -552,14 +555,14 @@
 			[
 				4,
 				25,
-				39
+				41
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				40
+				42
 			]
 		}
 	],
@@ -773,6 +776,17 @@
 			"backtrace" : 4,
 			"compileGroupIndex" : 0,
 			"path" : "InterpolationSearcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "HashingSearcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "HashingSearcher.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

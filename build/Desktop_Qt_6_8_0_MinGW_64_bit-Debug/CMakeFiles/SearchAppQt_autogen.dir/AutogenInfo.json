@@ -297,6 +297,12 @@
 		],
 		[ "F:/SearchAppQt/FileIO.h", "MU", "EWIEGA46WW/moc_FileIO.cpp", null ],
 		[
+			"F:/SearchAppQt/HashingSearcher.h",
+			"MU",
+			"EWIEGA46WW/moc_HashingSearcher.cpp",
+			null
+		],
+		[
 			"F:/SearchAppQt/InterpolationSearcher.h",
 			"MU",
 			"EWIEGA46WW/moc_InterpolationSearcher.cpp",
@@ -435,6 +441,7 @@
 		[ "F:/SearchAppQt/DescendingArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/ExponentialSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/FileIO.cpp", "MU", null ],
+		[ "F:/SearchAppQt/HashingSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/InterpolationSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/JumpSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/LinearSearcher.cpp", "MU", null ],

@@ -5,7 +5,7 @@
 using namespace std;
 
 string InterpolationSearcher::getAlgorithm() {
-    return "Binary Search";
+    return "Interpolation Search";
 }
 
 int InterpolationSearcher::search(int value) {

@@ -487,16 +487,16 @@ F:/SearchAppQt/mainWindow.h
 F:/SearchAppQt/main.cpp
 F:/SearchAppQt/mainWindow.cpp
  uic:./ui_mainWindow.h
+F:/SearchAppQt/NeedSortedSearcher.h
 F:/SearchAppQt/ExponentialSearcher.h
 F:/SearchAppQt/LinearSearcher.h
-F:/SearchAppQt/NeedSortedSearcher.h
 F:/SearchAppQt/LinearSearcher.cpp
 F:/SearchAppQt/ExponentialSearcher.cpp
 F:/SearchAppQt/JumpSearcher.h
 F:/SearchAppQt/Searcher.h
 F:/SearchAppQt/TimeCounter.h
-F:/SearchAppQt/NeedSortedSearcher.cpp
 F:/SearchAppQt/InterpolationSearcher.h
+F:/SearchAppQt/NeedSortedSearcher.cpp
 F:/SearchAppQt/Searcher.cpp
 F:/SearchAppQt/TimeCounter.cpp
 F:/SearchAppQt/BinarySearcher.h
@@ -505,8 +505,8 @@ F:/SearchAppQt/TernarySearcher.h
 F:/SearchAppQt/TernarySearcher.cpp
 F:/SearchAppQt/JumpSearcher.cpp
 F:/SearchAppQt/SearchContext.h
-F:/SearchAppQt/ArrGenerator.h
 F:/SearchAppQt/SearchContext.cpp
+F:/SearchAppQt/ArrGenerator.h
 F:/SearchAppQt/Reader.h
 F:/SearchAppQt/Reader.cpp
 F:/SearchAppQt/FileIO.h
@@ -519,3 +519,5 @@ F:/SearchAppQt/AscendingArrGenerator.cpp
 F:/SearchAppQt/DescendingArrGenerator.cpp
 F:/SearchAppQt/RandomizeArrGenerator.cpp
 F:/SearchAppQt/InterpolationSearcher.cpp
+F:/SearchAppQt/HashingSearcher.h
+F:/SearchAppQt/HashingSearcher.cpp

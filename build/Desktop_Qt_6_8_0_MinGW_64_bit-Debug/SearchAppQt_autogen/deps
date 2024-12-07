@@ -659,6 +659,8 @@ SearchAppQt_autogen/timestamp: \
 	F:/SearchAppQt/ExponentialSearcher.h \
 	F:/SearchAppQt/FileIO.cpp \
 	F:/SearchAppQt/FileIO.h \
+	F:/SearchAppQt/HashingSearcher.cpp \
+	F:/SearchAppQt/HashingSearcher.h \
 	F:/SearchAppQt/InterpolationSearcher.cpp \
 	F:/SearchAppQt/InterpolationSearcher.h \
 	F:/SearchAppQt/JumpSearcher.cpp \

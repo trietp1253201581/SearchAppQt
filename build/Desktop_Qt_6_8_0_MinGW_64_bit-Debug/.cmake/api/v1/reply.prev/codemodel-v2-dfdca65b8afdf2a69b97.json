@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-5d32ec63ecfa45083646.json",
+					"jsonFile" : "directory-.-Debug-35c2d1a905263249e5c6.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "SearchAppQt::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SearchAppQt-Debug-f34f2143c455a6745f7b.json",
+					"jsonFile" : "target-SearchAppQt-Debug-f03554f736dd392ce102.json",
 					"name" : "SearchAppQt",
 					"projectIndex" : 0
 				},

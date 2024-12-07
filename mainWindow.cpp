@@ -7,6 +7,7 @@
 #include "JumpSearcher.h"
 #include "ExponentialSearcher.h"
 #include "InterpolationSearcher.h"
+#include "HashingSearcher.h"
 #include "QFileDialog"
 #include "FileIO.h"
 #include "Reader.h"
@@ -84,6 +85,9 @@ void MainWindow::on_search_clicked() {
     }
     if (ui->interpolationSearchCheck->isChecked()) {
         searchers.push_back(new InterpolationSearcher(inputArr));
+    }
+    if (ui->hashingSearchCheck->isChecked()) {
+        searchers.push_back(new HashingSearcher(inputArr));
     }
     cout << searchers.size() << endl;
     result = "";
