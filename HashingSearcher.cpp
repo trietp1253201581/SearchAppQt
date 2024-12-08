@@ -3,6 +3,13 @@
 #include "HashingSearcher.h"
 #include "TimeCounter.h"
 
+const vector<int> HashingSearcher::primes = { 2, 3, 7, 17, 31, 61, 127, 257, 509,
+                                             1021, 2053, 4099, 8191, 16381, 32771,
+                                             65537, 131071, 262147, 524287, 1048583,
+                                             2097169, 4194301, 8388617, 16777213,
+                                             33554467, 67108859, 134217757, 268435459,
+                                             536870923 };
+
 string HashingSearcher::getAlgorithm() {
     return "Hashing Searcher";
 }
@@ -13,12 +20,12 @@ int HashingSearcher::hashFunction(int value) {
 
 void HashingSearcher::buildHashTable() {
     int arr_size = (int) arr.size();
-    if (arr_size < 5000) hashTableSize = 997;
-    else if (arr_size < 4e5) hashTableSize = 99991;
-    else if (arr_size < 3e7) hashTableSize = 1e7 + 19;
-    else if (arr_size < 2e8) hashTableSize = 1e8 + 7;
-    else if (arr_size < 2e9) hashTableSize = 1e9 + 7;
-    else hashTableSize = 1e9 + 7;
+    auto it = lower_bound(primes.begin(), primes.end(), arr_size);
+    if (it == primes.end()) {
+        hashTableSize = primes.back();
+    } else {
+        hashTableSize = *it;
+    }
     hashTable.resize(hashTableSize);
     for (int i = 0; i < arr_size; i++) {
         int key = hashFunction(arr[i]);

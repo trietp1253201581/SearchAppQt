@@ -9,6 +9,7 @@ protected:
     vector<vector<pair<int, int>>> hashTable;
     int hashTableSize;
     bool isBuilt;
+    static const vector<int> primes;
 public:
     string getAlgorithm() override;
     int search(int value) override;
