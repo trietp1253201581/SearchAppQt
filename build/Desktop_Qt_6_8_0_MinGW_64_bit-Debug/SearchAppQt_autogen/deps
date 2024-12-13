@@ -1,4 +1,5 @@
 SearchAppQt_autogen/timestamp: \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -13,6 +14,7 @@ SearchAppQt_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qatomic.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qatomic_cxx11.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qbasicatomic.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qbasictimer.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qbindingstorage.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearray.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -103,6 +105,7 @@ SearchAppQt_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+	C:/Qt/6.8.0/mingw_64/include/QtCore/qtimer.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtnoop.h \
 	C:/Qt/6.8.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -145,6 +148,7 @@ SearchAppQt_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
 	C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QWidget \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -650,6 +654,8 @@ SearchAppQt_autogen/timestamp: \
 	F:/SearchAppQt/ArrGenerator.h \
 	F:/SearchAppQt/AscendingArrGenerator.cpp \
 	F:/SearchAppQt/AscendingArrGenerator.h \
+	F:/SearchAppQt/BinarySearchVIsualizer.h \
+	F:/SearchAppQt/BinarySearchVisualizer.cpp \
 	F:/SearchAppQt/BinarySearcher.cpp \
 	F:/SearchAppQt/BinarySearcher.h \
 	F:/SearchAppQt/CMakeLists.txt \
@@ -663,8 +669,12 @@ SearchAppQt_autogen/timestamp: \
 	F:/SearchAppQt/HashingSearcher.h \
 	F:/SearchAppQt/InterpolationSearcher.cpp \
 	F:/SearchAppQt/InterpolationSearcher.h \
+	F:/SearchAppQt/JumpSearchVisualizer.cpp \
+	F:/SearchAppQt/JumpSearchVisualizer.h \
 	F:/SearchAppQt/JumpSearcher.cpp \
 	F:/SearchAppQt/JumpSearcher.h \
+	F:/SearchAppQt/LinearSearchVisualizer.cpp \
+	F:/SearchAppQt/LinearSearchVisualizer.h \
 	F:/SearchAppQt/LinearSearcher.cpp \
 	F:/SearchAppQt/LinearSearcher.h \
 	F:/SearchAppQt/NeedSortedSearcher.cpp \
@@ -675,8 +685,12 @@ SearchAppQt_autogen/timestamp: \
 	F:/SearchAppQt/Reader.h \
 	F:/SearchAppQt/SearchContext.cpp \
 	F:/SearchAppQt/SearchContext.h \
+	F:/SearchAppQt/SearchVisualizer.cpp \
+	F:/SearchAppQt/SearchVisualizer.h \
 	F:/SearchAppQt/Searcher.cpp \
 	F:/SearchAppQt/Searcher.h \
+	F:/SearchAppQt/TernarySearchVisualizer.cpp \
+	F:/SearchAppQt/TernarySearchVisualizer.h \
 	F:/SearchAppQt/TernarySearcher.cpp \
 	F:/SearchAppQt/TernarySearcher.h \
 	F:/SearchAppQt/TimeCounter.cpp \

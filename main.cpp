@@ -4,6 +4,9 @@
 #include "RandomizeArrGenerator.h"
 #include "FileIO.h"
 #include <QApplication>
+#include "SearchVisualizer.h"
+#include "LinearSearchVisualizer.h"
+#include "BinarySearchVisualizer.h"
 using namespace std;
 int main(int argc, char *argv[])
 {

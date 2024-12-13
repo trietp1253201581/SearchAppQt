@@ -27,7 +27,9 @@ int JumpSearcher::search(int value) {
             break;
         }
     }
-    int lower = max(0, prev - step), upper = min(size, prev);
+    prev -= step;
+
+    int lower = max(0, prev), upper = min(size, prev + step);
     for (int i = lower; i <= upper; i++) {
         if (sortedIndexArr[i].first == value) {
             newTimeCounter.endSearch();

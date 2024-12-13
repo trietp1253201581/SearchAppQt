@@ -1,5 +1,6 @@
 F:/SearchAppQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/SearchAppQt_autogen/EWIEGA46WW/moc_mainWindow.cpp: F:/SearchAppQt/mainWindow.h \
   F:/SearchAppQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/SearchAppQt_autogen/moc_predefs.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QTimer \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20iterator.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/q20memory.h \
@@ -14,6 +15,7 @@ F:/SearchAppQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/SearchAppQt_autogen/EWI
   C:/Qt/6.8.0/mingw_64/include/QtCore/qatomic.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qbasictimer.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbindingstorage.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearray.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearrayalgorithms.h \
@@ -104,6 +106,7 @@ F:/SearchAppQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/SearchAppQt_autogen/EWI
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qtimer.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -146,6 +149,7 @@ F:/SearchAppQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/SearchAppQt_autogen/EWI
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.8.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.8.0/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -479,5 +483,6 @@ F:/SearchAppQt/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/SearchAppQt_autogen/EWI
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
   F:/SearchAppQt/ArrGenerator.h \
   F:/SearchAppQt/SearchContext.h \
+  F:/SearchAppQt/SearchVisualizer.h \
   F:/SearchAppQt/Searcher.h \
   F:/SearchAppQt/TimeCounter.h

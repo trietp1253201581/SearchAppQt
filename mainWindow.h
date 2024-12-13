@@ -5,6 +5,7 @@
 #include "Searcher.h"
 #include "SearchContext.h"
 #include "ArrGenerator.h"
+#include "SearchVisualizer.h"
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -30,6 +31,14 @@ private slots:
 
     void on_search_clicked();
 
+    void on_viewLinearSearchBtn_clicked();
+
+    void on_viewBinarySearchBtn_clicked();
+
+    void on_viewTernarySearchBtn_clicked();
+
+    void on_viewJumpSearchBtn_clicked();
+
 private:
     Ui::MainWindow *ui;
     vector<int> inputArr;
@@ -38,5 +47,8 @@ private:
     SearchContext searchContext;
     string result;
     ArrGenerator* arrGenerator;
+    SearchVisualizer* searchVisualizer;
+    static const vector<int> sampleData;
+    void visualize(int target);
 };
 #endif // MAINWINDOW_H

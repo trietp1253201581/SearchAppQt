@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
@@ -54,6 +55,12 @@ public:
     QScrollArea *scrollForLog;
     QWidget *scrollAreaWidgetContents_4;
     QTextEdit *resultLog;
+    QFrame *line;
+    QLabel *label_6;
+    QPushButton *viewLinearSearchBtn;
+    QPushButton *viewBinarySearchBtn;
+    QPushButton *viewTernarySearchBtn;
+    QPushButton *viewJumpSearchBtn;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -61,7 +68,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(620, 600);
+        MainWindow->resize(780, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
@@ -116,13 +123,13 @@ public:
         linearSearchCheck->setGeometry(QRect(150, 240, 80, 30));
         binarySearchCheck = new QCheckBox(centralwidget);
         binarySearchCheck->setObjectName("binarySearchCheck");
-        binarySearchCheck->setGeometry(QRect(250, 240, 80, 30));
+        binarySearchCheck->setGeometry(QRect(270, 240, 80, 30));
         ternarySearchCheck = new QCheckBox(centralwidget);
         ternarySearchCheck->setObjectName("ternarySearchCheck");
-        ternarySearchCheck->setGeometry(QRect(350, 240, 80, 30));
+        ternarySearchCheck->setGeometry(QRect(390, 240, 80, 30));
         jumpSearchCheck = new QCheckBox(centralwidget);
         jumpSearchCheck->setObjectName("jumpSearchCheck");
-        jumpSearchCheck->setGeometry(QRect(450, 240, 80, 30));
+        jumpSearchCheck->setGeometry(QRect(510, 240, 80, 30));
         search = new QPushButton(centralwidget);
         search->setObjectName("search");
         search->setGeometry(QRect(250, 320, 125, 30));
@@ -131,10 +138,10 @@ public:
         exponentialSearchCheck->setGeometry(QRect(150, 280, 80, 30));
         interpolationSearchCheck = new QCheckBox(centralwidget);
         interpolationSearchCheck->setObjectName("interpolationSearchCheck");
-        interpolationSearchCheck->setGeometry(QRect(250, 280, 80, 30));
+        interpolationSearchCheck->setGeometry(QRect(270, 280, 80, 30));
         hashingSearchCheck = new QCheckBox(centralwidget);
         hashingSearchCheck->setObjectName("hashingSearchCheck");
-        hashingSearchCheck->setGeometry(QRect(350, 280, 80, 30));
+        hashingSearchCheck->setGeometry(QRect(390, 280, 80, 30));
         scrollForLog = new QScrollArea(centralwidget);
         scrollForLog->setObjectName("scrollForLog");
         scrollForLog->setGeometry(QRect(10, 380, 600, 180));
@@ -146,10 +153,30 @@ public:
         resultLog->setObjectName("resultLog");
         resultLog->setGeometry(QRect(0, 0, 600, 180));
         scrollForLog->setWidget(scrollAreaWidgetContents_4);
+        line = new QFrame(centralwidget);
+        line->setObjectName("line");
+        line->setGeometry(QRect(630, 0, 3, 590));
+        line->setFrameShape(QFrame::Shape::VLine);
+        line->setFrameShadow(QFrame::Shadow::Sunken);
+        label_6 = new QLabel(centralwidget);
+        label_6->setObjectName("label_6");
+        label_6->setGeometry(QRect(640, 10, 100, 30));
+        viewLinearSearchBtn = new QPushButton(centralwidget);
+        viewLinearSearchBtn->setObjectName("viewLinearSearchBtn");
+        viewLinearSearchBtn->setGeometry(QRect(640, 40, 110, 30));
+        viewBinarySearchBtn = new QPushButton(centralwidget);
+        viewBinarySearchBtn->setObjectName("viewBinarySearchBtn");
+        viewBinarySearchBtn->setGeometry(QRect(640, 90, 110, 30));
+        viewTernarySearchBtn = new QPushButton(centralwidget);
+        viewTernarySearchBtn->setObjectName("viewTernarySearchBtn");
+        viewTernarySearchBtn->setGeometry(QRect(640, 140, 110, 30));
+        viewJumpSearchBtn = new QPushButton(centralwidget);
+        viewJumpSearchBtn->setObjectName("viewJumpSearchBtn");
+        viewJumpSearchBtn->setGeometry(QRect(640, 190, 110, 30));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 620, 17));
+        menubar->setGeometry(QRect(0, 0, 780, 17));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -183,6 +210,11 @@ public:
         exponentialSearchCheck->setText(QCoreApplication::translate("MainWindow", "Exponetial", nullptr));
         interpolationSearchCheck->setText(QCoreApplication::translate("MainWindow", "Interpolation", nullptr));
         hashingSearchCheck->setText(QCoreApplication::translate("MainWindow", "Hashing", nullptr));
+        label_6->setText(QCoreApplication::translate("MainWindow", "View algorithm", nullptr));
+        viewLinearSearchBtn->setText(QCoreApplication::translate("MainWindow", "Linear Search", nullptr));
+        viewBinarySearchBtn->setText(QCoreApplication::translate("MainWindow", "Binary Search", nullptr));
+        viewTernarySearchBtn->setText(QCoreApplication::translate("MainWindow", "Ternary Search", nullptr));
+        viewJumpSearchBtn->setText(QCoreApplication::translate("MainWindow", "Jump Search", nullptr));
     } // retranslateUi
 
 };

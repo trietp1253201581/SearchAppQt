@@ -278,6 +278,12 @@
 			null
 		],
 		[
+			"F:/SearchAppQt/BinarySearchVIsualizer.h",
+			"MU",
+			"EWIEGA46WW/moc_BinarySearchVIsualizer.cpp",
+			null
+		],
+		[
 			"F:/SearchAppQt/BinarySearcher.h",
 			"MU",
 			"EWIEGA46WW/moc_BinarySearcher.cpp",
@@ -309,9 +315,21 @@
 			null
 		],
 		[
+			"F:/SearchAppQt/JumpSearchVisualizer.h",
+			"MU",
+			"EWIEGA46WW/moc_JumpSearchVisualizer.cpp",
+			null
+		],
+		[
 			"F:/SearchAppQt/JumpSearcher.h",
 			"MU",
 			"EWIEGA46WW/moc_JumpSearcher.cpp",
+			null
+		],
+		[
+			"F:/SearchAppQt/LinearSearchVisualizer.h",
+			"MU",
+			"EWIEGA46WW/moc_LinearSearchVisualizer.cpp",
 			null
 		],
 		[
@@ -340,9 +358,21 @@
 			null
 		],
 		[
+			"F:/SearchAppQt/SearchVisualizer.h",
+			"MU",
+			"EWIEGA46WW/moc_SearchVisualizer.cpp",
+			null
+		],
+		[
 			"F:/SearchAppQt/Searcher.h",
 			"MU",
 			"EWIEGA46WW/moc_Searcher.cpp",
+			null
+		],
+		[
+			"F:/SearchAppQt/TernarySearchVisualizer.h",
+			"MU",
+			"EWIEGA46WW/moc_TernarySearchVisualizer.cpp",
 			null
 		],
 		[
@@ -437,19 +467,24 @@
 	[
 		[ "F:/SearchAppQt/ArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/AscendingArrGenerator.cpp", "MU", null ],
+		[ "F:/SearchAppQt/BinarySearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/BinarySearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/DescendingArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/ExponentialSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/FileIO.cpp", "MU", null ],
 		[ "F:/SearchAppQt/HashingSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/InterpolationSearcher.cpp", "MU", null ],
+		[ "F:/SearchAppQt/JumpSearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/JumpSearcher.cpp", "MU", null ],
+		[ "F:/SearchAppQt/LinearSearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/LinearSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/NeedSortedSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/RandomizeArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/Reader.cpp", "MU", null ],
 		[ "F:/SearchAppQt/SearchContext.cpp", "MU", null ],
+		[ "F:/SearchAppQt/SearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/Searcher.cpp", "MU", null ],
+		[ "F:/SearchAppQt/TernarySearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/TernarySearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/TimeCounter.cpp", "MU", null ],
 		[ "F:/SearchAppQt/main.cpp", "MU", null ],

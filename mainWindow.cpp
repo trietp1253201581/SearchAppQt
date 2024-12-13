@@ -14,6 +14,10 @@
 #include "AscendingArrGenerator.h"
 #include "DescendingArrGenerator.h"
 #include "RandomizeArrGenerator.h"
+#include "LinearSearchVisualizer.h"
+#include "BinarySearchVIsualizer.h"
+#include "TernarySearchVisualizer.h"
+#include "JumpSearchVisualizer.h"
 
 using namespace std;
 
@@ -89,14 +93,12 @@ void MainWindow::on_search_clicked() {
     if (ui->hashingSearchCheck->isChecked()) {
         searchers.push_back(new HashingSearcher(inputArr));
     }
-    cout << searchers.size() << endl;
     result = "";
     for (Searcher* searcher: searchers) {
         result += "<<<" + searcher->getAlgorithm() + ">>>" + "\n";
         searchContext.setSearcher(searcher);
         for (int value: searchValues) {
             result += searchContext.executeSearch(value);
-            cout << searchContext.getSearcher()->getArr().size() << endl;
         }
         result += "..Total: ";
         ostringstream outBuild;
@@ -110,5 +112,37 @@ void MainWindow::on_search_clicked() {
         result += ".\n";
     }
     ui->resultLog->setPlainText(QString::fromStdString(result));
+}
+
+const vector<int> MainWindow::sampleData = {1, 2, 4, 7, 9, 19, 22, 23, 31, 50, 96, 155, 1000, 3942, 5000,
+                                            9630, 10000, 12333, 23443, 56732, 91234};
+
+void MainWindow::visualize(int target) {
+    searchVisualizer->setData(sampleData);
+    searchVisualizer->visualize(target);
+    searchVisualizer->show();
+}
+
+void MainWindow::on_viewLinearSearchBtn_clicked() {
+    searchVisualizer = new LinearSearchVisualizer();
+    visualize(10000);
+}
+
+
+void MainWindow::on_viewBinarySearchBtn_clicked() {
+    searchVisualizer = new BinarySearchVisualizer();
+    visualize(10000);
+}
+
+
+void MainWindow::on_viewTernarySearchBtn_clicked() {
+    searchVisualizer = new TernarySearchVisualizer();
+    visualize(10000);
+}
+
+
+void MainWindow::on_viewJumpSearchBtn_clicked() {
+    searchVisualizer = new JumpSearchVisualizer();
+    visualize(10000);
 }
 

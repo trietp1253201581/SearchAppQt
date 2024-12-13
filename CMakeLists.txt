@@ -58,6 +58,16 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         InterpolationSearcher.cpp
         HashingSearcher.h
         HashingSearcher.cpp
+        SearchVisualizer.h
+        SearchVisualizer.cpp
+        LinearSearchVisualizer.h
+        LinearSearchVisualizer.cpp
+        BinarySearchVisualizer.h
+        BinarySearchVisualizer.cpp
+        TernarySearchVisualizer.h
+        TernarySearchVisualizer.cpp
+        JumpSearchVisualizer.h
+        JumpSearchVisualizer.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SearchAppQt APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
