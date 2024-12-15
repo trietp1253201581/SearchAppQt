@@ -39,6 +39,8 @@ private slots:
 
     void on_viewJumpSearchBtn_clicked();
 
+    void on_viewExponentialSearchBtn_clicked();
+
 private:
     Ui::MainWindow *ui;
     vector<int> inputArr;

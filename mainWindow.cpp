@@ -8,6 +8,7 @@
 #include "ExponentialSearcher.h"
 #include "InterpolationSearcher.h"
 #include "HashingSearcher.h"
+#include "FibonacciSearcher.h"
 #include "QFileDialog"
 #include "FileIO.h"
 #include "Reader.h"
@@ -18,6 +19,7 @@
 #include "BinarySearchVIsualizer.h"
 #include "TernarySearchVisualizer.h"
 #include "JumpSearchVisualizer.h"
+#include "ExponentialSearchVisualizer.h"
 
 using namespace std;
 
@@ -63,7 +65,6 @@ void MainWindow::on_inputArrayBtn_clicked() {
     Reader reader;
     reader.read(data);
     inputArr = reader.getInputArr();
-    cout << inputArr.size() << endl;
 }
 
 void MainWindow::on_search_clicked() {
@@ -92,6 +93,9 @@ void MainWindow::on_search_clicked() {
     }
     if (ui->hashingSearchCheck->isChecked()) {
         searchers.push_back(new HashingSearcher(inputArr));
+    }
+    if (ui->fibonacciSearchCheck->isChecked()) {
+        searchers.push_back(new FibonacciSearcher(inputArr));
     }
     result = "";
     for (Searcher* searcher: searchers) {
@@ -143,6 +147,12 @@ void MainWindow::on_viewTernarySearchBtn_clicked() {
 
 void MainWindow::on_viewJumpSearchBtn_clicked() {
     searchVisualizer = new JumpSearchVisualizer();
+    visualize(10000);
+}
+
+
+void MainWindow::on_viewExponentialSearchBtn_clicked() {
+    searchVisualizer = new ExponentialSearchVisualizer();
     visualize(10000);
 }
 

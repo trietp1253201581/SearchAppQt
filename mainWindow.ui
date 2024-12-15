@@ -290,7 +290,7 @@
    <widget class="QCheckBox" name="hashingSearchCheck">
     <property name="geometry">
      <rect>
-      <x>390</x>
+      <x>510</x>
       <y>280</y>
       <width>80</width>
       <height>30</height>
@@ -409,6 +409,32 @@
     </property>
     <property name="text">
      <string>Jump Search</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="fibonacciSearchCheck">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>280</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fibonacci</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewExponentialSearchBtn">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>240</y>
+      <width>110</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exponential Search</string>
     </property>
    </widget>
   </widget>

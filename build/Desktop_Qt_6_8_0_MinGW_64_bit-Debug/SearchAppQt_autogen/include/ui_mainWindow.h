@@ -61,6 +61,8 @@ public:
     QPushButton *viewBinarySearchBtn;
     QPushButton *viewTernarySearchBtn;
     QPushButton *viewJumpSearchBtn;
+    QCheckBox *fibonacciSearchCheck;
+    QPushButton *viewExponentialSearchBtn;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -141,7 +143,7 @@ public:
         interpolationSearchCheck->setGeometry(QRect(270, 280, 80, 30));
         hashingSearchCheck = new QCheckBox(centralwidget);
         hashingSearchCheck->setObjectName("hashingSearchCheck");
-        hashingSearchCheck->setGeometry(QRect(390, 280, 80, 30));
+        hashingSearchCheck->setGeometry(QRect(510, 280, 80, 30));
         scrollForLog = new QScrollArea(centralwidget);
         scrollForLog->setObjectName("scrollForLog");
         scrollForLog->setGeometry(QRect(10, 380, 600, 180));
@@ -173,6 +175,12 @@ public:
         viewJumpSearchBtn = new QPushButton(centralwidget);
         viewJumpSearchBtn->setObjectName("viewJumpSearchBtn");
         viewJumpSearchBtn->setGeometry(QRect(640, 190, 110, 30));
+        fibonacciSearchCheck = new QCheckBox(centralwidget);
+        fibonacciSearchCheck->setObjectName("fibonacciSearchCheck");
+        fibonacciSearchCheck->setGeometry(QRect(390, 280, 80, 30));
+        viewExponentialSearchBtn = new QPushButton(centralwidget);
+        viewExponentialSearchBtn->setObjectName("viewExponentialSearchBtn");
+        viewExponentialSearchBtn->setGeometry(QRect(640, 240, 110, 30));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -215,6 +223,8 @@ public:
         viewBinarySearchBtn->setText(QCoreApplication::translate("MainWindow", "Binary Search", nullptr));
         viewTernarySearchBtn->setText(QCoreApplication::translate("MainWindow", "Ternary Search", nullptr));
         viewJumpSearchBtn->setText(QCoreApplication::translate("MainWindow", "Jump Search", nullptr));
+        fibonacciSearchCheck->setText(QCoreApplication::translate("MainWindow", "Fibonacci", nullptr));
+        viewExponentialSearchBtn->setText(QCoreApplication::translate("MainWindow", "Exponential Search", nullptr));
     } // retranslateUi
 
 };

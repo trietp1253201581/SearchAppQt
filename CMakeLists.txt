@@ -68,6 +68,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         TernarySearchVisualizer.cpp
         JumpSearchVisualizer.h
         JumpSearchVisualizer.cpp
+        FibonacciSearcher.h
+        FibonacciSearcher.cpp
+        ExponentialSearchVisualizer.h
+        ExponentialSearchVisualizer.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SearchAppQt APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
