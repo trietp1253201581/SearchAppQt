@@ -437,6 +437,19 @@
      <string>Exponential Search</string>
     </property>
    </widget>
+   <widget class="QCheckBox" name="inputIntoFieldCheck">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>10</y>
+      <width>141</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Input into field</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

@@ -36,7 +36,13 @@ void MainWindow::on_inputByFileBtn_clicked() {
                                                     "", "All Files (*.*)");
     string fileDir = qFileDir.toStdString();
     string data = FileIO::read(fileDir);
-    ui->inputArrayEdit->setPlainText(QString::fromStdString(data));
+    if (ui->inputIntoFieldCheck->isChecked()) {
+        ui->inputArrayEdit->setPlainText(QString::fromStdString(data));
+    } else {
+        Reader reader;
+        reader.read(data);
+        inputArr = reader.getInputArr();
+    }
 }
 
 void MainWindow::on_generateInputBtn_clicked() {
@@ -54,8 +60,12 @@ void MainWindow::on_generateInputBtn_clicked() {
         arrGenerator = new RandomizeArrGenerator();
     }
     arrGenerator->generate(size);
-    string inputArrStr = arrGenerator->getGeneratedArrStr();
-    ui->inputArrayEdit->setPlainText(QString::fromStdString(inputArrStr));
+    if (ui->inputIntoFieldCheck->isChecked()) {
+        string inputArrStr = arrGenerator->getGeneratedArrStr();
+        ui->inputArrayEdit->setPlainText(QString::fromStdString(inputArrStr));
+    } else {
+        inputArr = arrGenerator->getGeneratedArr();
+    }
 }
 
 

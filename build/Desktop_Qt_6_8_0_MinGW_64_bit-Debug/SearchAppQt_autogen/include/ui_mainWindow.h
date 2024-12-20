@@ -63,6 +63,7 @@ public:
     QPushButton *viewJumpSearchBtn;
     QCheckBox *fibonacciSearchCheck;
     QPushButton *viewExponentialSearchBtn;
+    QCheckBox *inputIntoFieldCheck;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -181,6 +182,9 @@ public:
         viewExponentialSearchBtn = new QPushButton(centralwidget);
         viewExponentialSearchBtn->setObjectName("viewExponentialSearchBtn");
         viewExponentialSearchBtn->setGeometry(QRect(640, 240, 110, 30));
+        inputIntoFieldCheck = new QCheckBox(centralwidget);
+        inputIntoFieldCheck->setObjectName("inputIntoFieldCheck");
+        inputIntoFieldCheck->setGeometry(QRect(280, 10, 141, 30));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
@@ -225,6 +229,7 @@ public:
         viewJumpSearchBtn->setText(QCoreApplication::translate("MainWindow", "Jump Search", nullptr));
         fibonacciSearchCheck->setText(QCoreApplication::translate("MainWindow", "Fibonacci", nullptr));
         viewExponentialSearchBtn->setText(QCoreApplication::translate("MainWindow", "Exponential Search", nullptr));
+        inputIntoFieldCheck->setText(QCoreApplication::translate("MainWindow", "Input into field", nullptr));
     } // retranslateUi
 
 };
