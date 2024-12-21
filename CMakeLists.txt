@@ -72,6 +72,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         FibonacciSearcher.cpp
         ExponentialSearchVisualizer.h
         ExponentialSearchVisualizer.cpp
+        InterpolationSearchVisualizer.h
+        InterpolationSearchVisualizer.cpp
+        FibonacciSearchVisualizer.h
+        FibonacciSearchVisualizer.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SearchAppQt APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

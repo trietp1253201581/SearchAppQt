@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>780</width>
+    <width>830</width>
     <height>600</height>
    </rect>
   </property>
@@ -364,7 +364,7 @@
      <rect>
       <x>640</x>
       <y>40</y>
-      <width>110</width>
+      <width>150</width>
       <height>30</height>
      </rect>
     </property>
@@ -377,7 +377,7 @@
      <rect>
       <x>640</x>
       <y>90</y>
-      <width>110</width>
+      <width>150</width>
       <height>30</height>
      </rect>
     </property>
@@ -390,7 +390,7 @@
      <rect>
       <x>640</x>
       <y>140</y>
-      <width>110</width>
+      <width>150</width>
       <height>30</height>
      </rect>
     </property>
@@ -403,7 +403,7 @@
      <rect>
       <x>640</x>
       <y>190</y>
-      <width>110</width>
+      <width>150</width>
       <height>30</height>
      </rect>
     </property>
@@ -429,7 +429,7 @@
      <rect>
       <x>640</x>
       <y>240</y>
-      <width>110</width>
+      <width>150</width>
       <height>30</height>
      </rect>
     </property>
@@ -450,13 +450,39 @@
      <string>Input into field</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="viewInterpolationSearchBtn">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>290</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Interpolation Search</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="viewFibonacciSearchBtn">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>340</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fibonacci Search</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>780</width>
+     <width>830</width>
      <height>17</height>
     </rect>
    </property>

@@ -20,7 +20,8 @@
 #include "TernarySearchVisualizer.h"
 #include "JumpSearchVisualizer.h"
 #include "ExponentialSearchVisualizer.h"
-
+#include "InterpolationSearchVisualizer.h"
+#include "FibonacciSearchVisualizer.h"
 using namespace std;
 
 MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -163,6 +164,18 @@ void MainWindow::on_viewJumpSearchBtn_clicked() {
 
 void MainWindow::on_viewExponentialSearchBtn_clicked() {
     searchVisualizer = new ExponentialSearchVisualizer();
+    visualize(10000);
+}
+
+
+void MainWindow::on_viewInterpolationSearchBtn_clicked() {
+    searchVisualizer = new InterpolationSearchVisualizer();
+    visualize(10000);
+}
+
+
+void MainWindow::on_viewFibonacciSearchBtn_clicked() {
+    searchVisualizer = new FibonacciSearchVisualizer();
     visualize(10000);
 }
 

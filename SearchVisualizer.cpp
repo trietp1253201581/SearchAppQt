@@ -40,7 +40,11 @@ void SearchVisualizer::paintEvent(QPaintEvent *event) {
         painter.drawRect(rect);
 
         painter.setPen(Qt::white);
-        painter.drawText(rect, Qt::AlignCenter, QString::number(data[i]));
+        if (data[i] < INT_MAX) {
+            painter.drawText(rect, Qt::AlignCenter, QString::number(data[i]));
+        } else {
+            painter.drawText(rect, Qt::AlignCenter, "inf");
+        }
 
         painter.drawText(QRect(x, yOffset + 40, rectSize, 20), Qt::AlignCenter, QString::fromStdString(to_string(i)));
     }

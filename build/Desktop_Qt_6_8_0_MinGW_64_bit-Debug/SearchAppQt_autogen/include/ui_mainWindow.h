@@ -64,6 +64,8 @@ public:
     QCheckBox *fibonacciSearchCheck;
     QPushButton *viewExponentialSearchBtn;
     QCheckBox *inputIntoFieldCheck;
+    QPushButton *viewInterpolationSearchBtn;
+    QPushButton *viewFibonacciSearchBtn;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -71,7 +73,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(780, 600);
+        MainWindow->resize(830, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
@@ -166,29 +168,35 @@ public:
         label_6->setGeometry(QRect(640, 10, 100, 30));
         viewLinearSearchBtn = new QPushButton(centralwidget);
         viewLinearSearchBtn->setObjectName("viewLinearSearchBtn");
-        viewLinearSearchBtn->setGeometry(QRect(640, 40, 110, 30));
+        viewLinearSearchBtn->setGeometry(QRect(640, 40, 150, 30));
         viewBinarySearchBtn = new QPushButton(centralwidget);
         viewBinarySearchBtn->setObjectName("viewBinarySearchBtn");
-        viewBinarySearchBtn->setGeometry(QRect(640, 90, 110, 30));
+        viewBinarySearchBtn->setGeometry(QRect(640, 90, 150, 30));
         viewTernarySearchBtn = new QPushButton(centralwidget);
         viewTernarySearchBtn->setObjectName("viewTernarySearchBtn");
-        viewTernarySearchBtn->setGeometry(QRect(640, 140, 110, 30));
+        viewTernarySearchBtn->setGeometry(QRect(640, 140, 150, 30));
         viewJumpSearchBtn = new QPushButton(centralwidget);
         viewJumpSearchBtn->setObjectName("viewJumpSearchBtn");
-        viewJumpSearchBtn->setGeometry(QRect(640, 190, 110, 30));
+        viewJumpSearchBtn->setGeometry(QRect(640, 190, 150, 30));
         fibonacciSearchCheck = new QCheckBox(centralwidget);
         fibonacciSearchCheck->setObjectName("fibonacciSearchCheck");
         fibonacciSearchCheck->setGeometry(QRect(390, 280, 80, 30));
         viewExponentialSearchBtn = new QPushButton(centralwidget);
         viewExponentialSearchBtn->setObjectName("viewExponentialSearchBtn");
-        viewExponentialSearchBtn->setGeometry(QRect(640, 240, 110, 30));
+        viewExponentialSearchBtn->setGeometry(QRect(640, 240, 150, 30));
         inputIntoFieldCheck = new QCheckBox(centralwidget);
         inputIntoFieldCheck->setObjectName("inputIntoFieldCheck");
         inputIntoFieldCheck->setGeometry(QRect(280, 10, 141, 30));
+        viewInterpolationSearchBtn = new QPushButton(centralwidget);
+        viewInterpolationSearchBtn->setObjectName("viewInterpolationSearchBtn");
+        viewInterpolationSearchBtn->setGeometry(QRect(640, 290, 150, 30));
+        viewFibonacciSearchBtn = new QPushButton(centralwidget);
+        viewFibonacciSearchBtn->setObjectName("viewFibonacciSearchBtn");
+        viewFibonacciSearchBtn->setGeometry(QRect(640, 340, 150, 30));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 780, 17));
+        menubar->setGeometry(QRect(0, 0, 830, 17));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -230,6 +238,8 @@ public:
         fibonacciSearchCheck->setText(QCoreApplication::translate("MainWindow", "Fibonacci", nullptr));
         viewExponentialSearchBtn->setText(QCoreApplication::translate("MainWindow", "Exponential Search", nullptr));
         inputIntoFieldCheck->setText(QCoreApplication::translate("MainWindow", "Input into field", nullptr));
+        viewInterpolationSearchBtn->setText(QCoreApplication::translate("MainWindow", "Interpolation Search", nullptr));
+        viewFibonacciSearchBtn->setText(QCoreApplication::translate("MainWindow", "Fibonacci Search", nullptr));
     } // retranslateUi
 
 };

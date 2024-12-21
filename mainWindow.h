@@ -41,6 +41,10 @@ private slots:
 
     void on_viewExponentialSearchBtn_clicked();
 
+    void on_viewInterpolationSearchBtn_clicked();
+
+    void on_viewFibonacciSearchBtn_clicked();
+
 private:
     Ui::MainWindow *ui;
     vector<int> inputArr;

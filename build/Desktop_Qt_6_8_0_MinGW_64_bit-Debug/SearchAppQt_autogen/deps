@@ -665,12 +665,16 @@ SearchAppQt_autogen/timestamp: \
 	F:/SearchAppQt/ExponentialSearchVisualizer.h \
 	F:/SearchAppQt/ExponentialSearcher.cpp \
 	F:/SearchAppQt/ExponentialSearcher.h \
+	F:/SearchAppQt/FibonacciSearchVisualizer.cpp \
+	F:/SearchAppQt/FibonacciSearchVisualizer.h \
 	F:/SearchAppQt/FibonacciSearcher.cpp \
 	F:/SearchAppQt/FibonacciSearcher.h \
 	F:/SearchAppQt/FileIO.cpp \
 	F:/SearchAppQt/FileIO.h \
 	F:/SearchAppQt/HashingSearcher.cpp \
 	F:/SearchAppQt/HashingSearcher.h \
+	F:/SearchAppQt/InterpolationSearchVisualizer.cpp \
+	F:/SearchAppQt/InterpolationSearchVisualizer.h \
 	F:/SearchAppQt/InterpolationSearcher.cpp \
 	F:/SearchAppQt/InterpolationSearcher.h \
 	F:/SearchAppQt/JumpSearchVisualizer.cpp \

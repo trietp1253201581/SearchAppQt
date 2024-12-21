@@ -308,6 +308,12 @@
 			null
 		],
 		[
+			"F:/SearchAppQt/FibonacciSearchVisualizer.h",
+			"MU",
+			"EWIEGA46WW/moc_FibonacciSearchVisualizer.cpp",
+			null
+		],
+		[
 			"F:/SearchAppQt/FibonacciSearcher.h",
 			"MU",
 			"EWIEGA46WW/moc_FibonacciSearcher.cpp",
@@ -318,6 +324,12 @@
 			"F:/SearchAppQt/HashingSearcher.h",
 			"MU",
 			"EWIEGA46WW/moc_HashingSearcher.cpp",
+			null
+		],
+		[
+			"F:/SearchAppQt/InterpolationSearchVisualizer.h",
+			"MU",
+			"EWIEGA46WW/moc_InterpolationSearchVisualizer.cpp",
 			null
 		],
 		[
@@ -484,9 +496,11 @@
 		[ "F:/SearchAppQt/DescendingArrGenerator.cpp", "MU", null ],
 		[ "F:/SearchAppQt/ExponentialSearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/ExponentialSearcher.cpp", "MU", null ],
+		[ "F:/SearchAppQt/FibonacciSearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/FibonacciSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/FileIO.cpp", "MU", null ],
 		[ "F:/SearchAppQt/HashingSearcher.cpp", "MU", null ],
+		[ "F:/SearchAppQt/InterpolationSearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/InterpolationSearcher.cpp", "MU", null ],
 		[ "F:/SearchAppQt/JumpSearchVisualizer.cpp", "MU", null ],
 		[ "F:/SearchAppQt/JumpSearcher.cpp", "MU", null ],

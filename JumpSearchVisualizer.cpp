@@ -56,7 +56,14 @@ void JumpSearchVisualizer::paintEvent(QPaintEvent *event) {
     int yOffsetForText = 20;
     if (prevIndex != -1) {
         int prevX = xOffset + prevIndex * rectSize;
+        int step = max(1, (int) floor(sqrt((int) data.size())));
         painter.drawText(QRect(prevX, yOffset - yOffsetForText, rectSize, 20), Qt::AlignCenter, "prev");
+        QString labelText = QString("step = %1, prev = %2 + %1 = %3")
+                                .arg(QString::number(step),
+                                     QString::number(max(0, prevIndex - step)),
+                                     QString::number(prevIndex));
+
+        if (prevIndex != 0) painter.drawText(QRect(xOffset + 100, yOffset - 75, 500, 20), Qt::AlignCenter, labelText);
     }
     if (lowerIndex != -1) {
         int lowerX = xOffset + lowerIndex * rectSize;
