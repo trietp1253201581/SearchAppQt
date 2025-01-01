@@ -61,19 +61,19 @@ void SearchVisualizer::highlightElement(int index) {
     highlightedIndex = index;
     update();
     QCoreApplication::processEvents();
-    QThread::msleep(1250);
+    QThread::msleep(1500);
 }
 
 void SearchVisualizer::highlightFoundElement(int index) {
     foundIndex = index;
     update();
     QCoreApplication::processEvents();
-    QThread::msleep(1250);
+    QThread::msleep(1500);
 }
 
 void SearchVisualizer::visualize(int target) {
     highlightedIndex = -1;
     foundIndex = -1;
     this->target = target;
-    qTimer->start(3000);
+    qTimer->start(2500);
 }

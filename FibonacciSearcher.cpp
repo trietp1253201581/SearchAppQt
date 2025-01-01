@@ -14,9 +14,7 @@ int FibonacciSearcher::search(int value) {
     if(!isSorted) {
         buildSortedIndexArr();
     }
-    newTimeCounter.endBuild();
 
-    newTimeCounter.startSearch();
     int size = (int) sortedIndexArr.size();
     //Fibo
     int fib2 = 0; //m-2 th
@@ -30,6 +28,9 @@ int FibonacciSearcher::search(int value) {
     for (int i = size; i <= fib0; i++) {
         sortedIndexArr.push_back({INT_MAX, i});
     }
+    newTimeCounter.endBuild();
+
+    newTimeCounter.startSearch();
     int idx = fib1 - 1; fib0 = fib1; fib1 = fib2; fib2 = fib0 - fib1;
     while (true) {
         if (sortedIndexArr[idx].first == value) {

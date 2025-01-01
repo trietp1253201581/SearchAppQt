@@ -27,7 +27,6 @@
     * ExponentialSearchVisualizer([.h](ExponentialSearchVisualizer.h), [.cpp](ExponentialSearchVisualizer.cpp))
     * InterpolationSearchVisualizer([.h](InterpolationSearchVisualizer.h), [.cpp](InterpolationSearchVisualizer.cpp))
     * FibonacciSearchVisualizer([.h](FibonacciSearchVisualizer.h), [.cpp](FibonacciSearchVisualizer.cpp))
-    * HashingSearchVisualizer([.h](HashingSearchVisualizer.h), [.cpp](HashingSearchVisualizer.cpp))
 * mainWindow([.h](mainWindow.h), [.cpp](mainWindow.cpp)) **(Cửa sổ chính của app)**
 
 ## Chạy thử
